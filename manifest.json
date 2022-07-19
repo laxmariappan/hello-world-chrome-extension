@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Hellow World",
+  "version": "0.1.0",
+  "description": "Simple JS chrome extension",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/cat.png",
+      "24": "images/cat.png",
+      "32": "images/cat.png"
+    }
+  },
+  "permissions": ["tabs", "storage"]
+}
